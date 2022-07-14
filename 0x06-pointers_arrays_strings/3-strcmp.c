@@ -17,8 +17,7 @@ char *str_two = s2;
 while (*str_one != '\0' && *str_two != '\0' && *str_one == *str_two)
 {
 str_one++;
-tr_two++;
-
+str_two++;
 }
 
 return (*str_one - *str_two);
